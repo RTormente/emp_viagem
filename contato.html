@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EuroTour - Contato</title>
+    <title>EuroTour</title>
 </head>
+
 <body>
+    <header>
+        <a href="index.html"><img src="assets/image/eurotour-logo-cor.png" alt="Logo EuroTour" /></a>
+        <nav>
+            <ul>
+                <li><a href="passagens.html">Passagens</a></li>
+                <li><a href="#">Hospedagem</a></li>
+                <li><a href="#">Pontos Turisticos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
+
         <form action="https://formsubmit.co/rod.tormente@gmail.com" method="POST">
             <fieldset>
                 <legend>Contato</legend>
 
                 <input type="hidden" name="_template" value="table" />
                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/eurotour_contato_tks.html" />
-                <input type="hidden" name="_autoresponse" value="Obrigado pelo contato, assim que possivel lhe responderemos." />
-                
+                <input type="hidden" name="_autoresponse"
+                    value="Obrigado pelo contato, assim que possivel lhe responderemos." />
+
                 <label for="name">Nome: </label>
                 <input type="text" name="name" id="name" placeholder="Nome Completo" required />
                 <br />
@@ -34,7 +49,7 @@
                     <input type="radio" name="contact" id="contact_email" value="E-Mail" />
                     <label for="contact_email">E-Mail</label>
                     <br />
-                    
+
                     <input type="radio" name="contact" id="contact_phone" value="contact_phone" />
                     <label for="contact_phone">Telephone</label>
                     <br />
@@ -48,7 +63,8 @@
                 <br />
 
                 <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" rows="10" cols="50" placeholder="Digite sua mensagem aqui!" required></textarea>
+                <textarea id="message" name="message" rows="10" cols="50" placeholder="Digite sua mensagem aqui!"
+                    required></textarea>
                 <br />
 
                 <label for="receber">Deseja receber email com nossas promoções? </label>
@@ -60,5 +76,19 @@
             </fieldset>
         </form>
     </main>
+    <footer>
+        <nav>
+            <a href="index.html"><img src="assets/image/eurotour-logo-pb.png" alt="Logo EuroTour" /></a>
+            <a href="#"><img src="assets/image/ico_instagram.png" alt="" /></a>
+            <a href="#"><img src="assets/image/ico_facebook.png" alt="" /></a>
+            <ul>
+                <li><a href="passagens.html"></a>Passagens</li>
+                <li><a href="#">Hospedagem</a></li>
+                <li><a href="#">Pontos Turisticos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
+
 </html>
