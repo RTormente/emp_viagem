@@ -1,0 +1,14 @@
+main section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards-destaques {
+    border: 1px solid black;
+    max-width: 25%;
+    padding: 2%;
+}
+
+.cards-destaques img {
+    width: 100%;
+}

@@ -5,113 +5,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/load_component.js"></script>
+
+    <link rel="stylesheet" href="assets/css/defautl.css" />
+    <link rel="stylesheet" href="assets/css/header_footer.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+
     <title>EuroTour</title>
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img src="assets/image/eurotour-logo-cor.png" alt="Logo EuroTour" /></a>
-        <nav>
-            <ul>
-                <li><a href="passagens.html">Passagens</a></li>
-                <li><a href="#">Hospedagem</a></li>
-                <li><a href="#">Pontos Turisticos</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header></header>
+
     <main>
-        <section>
+        <div class="container">
             <h1>Europa</h1>
             <h2>Destaques Turisticos</h2>
-            <div>
-                <img src="https://midia.gruposinos.com.br/_midias/jpg/2021/07/09/adobestock_260078352-19725916.jpeg" alt="Foto do Coliseu">
-                <h3>Coliseu - Roma - Itália</h3>
-                <p>
-                    O principal ponto turístico da Itália é sem dúvida o Coliseu de Roma. É um dos monumentos mais
-                    famosos do mundo e atrai nada menos do que 4 milhões de turistas todos os anos. Sua construção se
-                    iniciou no ano de 72 d.C. e durante décadas, serviu de palco para gladiadores que lutavam entre si
-                    ou com animais para um público de mais de 70 mil romanos.
-                </p>
-            </div>
-            <div>
-                <img src="https://conceitos.com/wp-content/uploads/historia/Torre-Eiffel.jpg"
-                    alt="Foto da Torre Eiffel">
-                <h3>Torre Eiffel - Paris - França</h3>
-                <p>
-                    É claro que a Torre Eiffel de Paris não poderia estar fora dessa lista. Construída em 1889, ela
-                    conta com 325 metros de altura e 1.665 degraus, e você não pode deixar de visitá-la quando estiver
-                    em Paris. Vista de diversas partes da capital francesa, a Torre Eiffel é um marco de como um
-                    monumento pode tornar-se um símbolo de uma nação.
-                </p>
-            </div>
-            <div>
-                <img src="https://veja.abril.com.br/wp-content/uploads/2016/11/antoni-gaudicc81-sagrada-familia-20150924-024.jpg"
-                    alt="Foto da Igreja Sagrada Família">
-                <h3>Sagrada Família - Barcelona - Espanha</h3>
-                <p>
-                    Os principais pontos turísticos de Barcelona e da Espanha foram construídos pelo famoso arquiteto
-                    Antoni Gaudì. A principal obra e o ponto turístico mais famoso que ele construiu é a Sagrada Família
-                    de Barcelona, uma igreja com uma grandeza incomparável e que ainda não está acabada, pela enorme
-                    quantidade de detalhes e pelo tamanho que foi projetada.
-                </p>
-            </div>
-        </section>
+            <section>
+                <div class="cards-destaques">
+                    <img src="https://midia.gruposinos.com.br/_midias/jpg/2021/07/09/adobestock_260078352-19725916.jpeg"
+                        alt="Foto do Coliseu">
+                    <h3>Coliseu - Roma - Itália</h3>
+                    <p>
+                        O principal ponto turístico da Itália é sem dúvida o Coliseu de Roma. É um dos monumentos mais
+                        famosos do mundo e atrai nada menos do que 4 milhões de turistas todos os anos. Sua construção
+                        se
+                        iniciou no ano de 72 d.C. e durante décadas, serviu de palco para gladiadores que lutavam entre
+                        si
+                        ou com animais para um público de mais de 70 mil romanos.
+                    </p>
+                </div>
+                <div class="cards-destaques">
+                    <img src="https://conceitos.com/wp-content/uploads/historia/Torre-Eiffel.jpg"
+                        alt="Foto da Torre Eiffel">
+                    <h3>Torre Eiffel - Paris - França</h3>
+                    <p>
+                        É claro que a Torre Eiffel de Paris não poderia estar fora dessa lista. Construída em 1889, ela
+                        conta com 325 metros de altura e 1.665 degraus, e você não pode deixar de visitá-la quando
+                        estiver
+                        em Paris. Vista de diversas partes da capital francesa, a Torre Eiffel é um marco de como um
+                        monumento pode tornar-se um símbolo de uma nação.
+                    </p>
+                </div>
+                <div class="cards-destaques">
+                    <img src="https://veja.abril.com.br/wp-content/uploads/2016/11/antoni-gaudicc81-sagrada-familia-20150924-024.jpg"
+                        alt="Foto da Igreja Sagrada Família">
+                    <h3>Sagrada Família - Barcelona - Espanha</h3>
+                    <p>
+                        Os principais pontos turísticos de Barcelona e da Espanha foram construídos pelo famoso
+                        arquiteto
+                        Antoni Gaudì. A principal obra e o ponto turístico mais famoso que ele construiu é a Sagrada
+                        Família
+                        de Barcelona, uma igreja com uma grandeza incomparável e que ainda não está acabada, pela enorme
+                        quantidade de detalhes e pelo tamanho que foi projetada.
+                    </p>
+                </div>
+            </section>
 
-        <section>
+            
             <h1>Nacional</h1>
             <h2>Destaques Turisticos de Recife - Pernambuco</h2>
-            <div>
-                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/00/2e/31/recife.jpg?w=600&h=-1&s=1"
-                    alt="Foto do Marco Zero">
-                <a href="marco_zero.html">
-                    <h3>Marco Zero</h3>
-                </a>
-                <p>
-                    O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também
-                    como ponto inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos pontos
-                    mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o
-                    Carnaval. <a href="marco_zero.html">+Info</a>
-                </p>
-            </div>
-            <div>
-                <img src="https://www.revistasim.com.br/wp-content/uploads/2020/01/7-Oficina-Francisco-Brennand-Marcio-Jose-Bastos-Silva-1155x770.jpg"
-                    alt="Foto do Parque das Esculturas">
-                <h3>Parque das Esculturas</h3>
-                <p>
-                    O Parque de Esculturas é composto por obras do artista plástico Francisco Brennand, e foi inaugurado
-                    como comemoração dos 500 anos de descobrimento do Brasil. Foi instalado sobre o molhe do porto.
-                    Tartarugas, pelicanos, ovos, maçarico, pássaros roca e sentinela guardam a principal obra do parque,
-                    a torre de cristal, inspirada em uma flor descoberta pelo paisagista Roberto Burle Marx. A travessia
-                    do Marco Zero até o parque funciona diariamente, das 7h às 17h
-                </p>
-            </div>
-            <div>
-                <img src="https://janelasabertas.com/wp-content/uploads/2017/11/centro-artesanato-pernambuco1-690x471.jpg"
-                    alt="Foto do Centro de Artesanato de Pernambuco">
-                <h3>Centro de Artesanato de Pernambuco</h3>
-                <p>
-                    Inaugurado em 2012, o Centro de Artesanato de Pernambuco rapidamente se tornou uma das referências, tanto
-                    para turistas quanto para os moradores de Recife. Localizado em um amplo galpão de 2,5 mil m², o espaço
-                    conta corredores amplos, vista privilegiada para o mar e mais de 25 mil peças à venda, feitas à mão por
-                    cerca de 1,8 mil artesãos de todos os cantos de Pernambuco.
-                </p>
-            </div>
-        </section>
+            <section>
+                <div class="cards-destaques">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/00/2e/31/recife.jpg?w=600&h=-1&s=1"
+                        alt="Foto do Marco Zero">
+                    <a href="marco_zero.html">
+                        <h3>Marco Zero</h3>
+                    </a>
+                    <p>
+                        O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e
+                        também
+                        como ponto inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos
+                        pontos
+                        mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o
+                        Carnaval. <a href="marco_zero.html">+Info</a>
+                    </p>
+                </div>
+                <div class="cards-destaques">
+                    <img src="https://www.revistasim.com.br/wp-content/uploads/2020/01/7-Oficina-Francisco-Brennand-Marcio-Jose-Bastos-Silva-1155x770.jpg"
+                        alt="Foto do Parque das Esculturas">
+                    <h3>Parque das Esculturas</h3>
+                    <p>
+                        O Parque de Esculturas é composto por obras do artista plástico Francisco Brennand, e foi
+                        inaugurado
+                        como comemoração dos 500 anos de descobrimento do Brasil. Foi instalado sobre o molhe do porto.
+                        Tartarugas, pelicanos, ovos, maçarico, pássaros roca e sentinela guardam a principal obra do
+                        parque,
+                        a torre de cristal, inspirada em uma flor descoberta pelo paisagista Roberto Burle Marx. A
+                        travessia
+                        do Marco Zero até o parque funciona diariamente, das 7h às 17h
+                    </p>
+                </div>
+                <div class="cards-destaques">
+                    <img src="https://janelasabertas.com/wp-content/uploads/2017/11/centro-artesanato-pernambuco1-690x471.jpg"
+                        alt="Foto do Centro de Artesanato de Pernambuco">
+                    <h3>Centro de Artesanato de Pernambuco</h3>
+                    <p>
+                        Inaugurado em 2012, o Centro de Artesanato de Pernambuco rapidamente se tornou uma das
+                        referências, tanto
+                        para turistas quanto para os moradores de Recife. Localizado em um amplo galpão de 2,5 mil m², o
+                        espaço
+                        conta corredores amplos, vista privilegiada para o mar e mais de 25 mil peças à venda, feitas à
+                        mão por
+                        cerca de 1,8 mil artesãos de todos os cantos de Pernambuco.
+                    </p>
+                </div>
+            </section>
+        </div>
     </main>
-    <footer>
-        <nav>
-            <a href="index.html"><img src="assets/image/eurotour-logo-pb.png" alt="Logo EuroTour" /></a>
-            <a href="#"><img src="assets/image/ico_instagram.png" alt="" /></a>
-            <a href="#"><img src="assets/image/ico_facebook.png" alt="" /></a>
-            <ul>
-                <li><a href="passagens.html"></a>Passagens</li>
-                <li><a href="#">Hospedagem</a></li>
-                <li><a href="#">Pontos Turisticos</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </footer>
+
+    <footer></footer>
 </body>
 
 </html>

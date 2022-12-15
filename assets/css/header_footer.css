@@ -1,0 +1,26 @@
+header {
+    padding: 1vh;
+    border-bottom: 3px solid #73C6D9;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 100%;
+}
+
+footer {
+    background-color: #E9F5F5;
+    padding: 4vh;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
